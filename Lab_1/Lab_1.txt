@@ -18,7 +18,8 @@
         Copies int DEFAULT NULL,
         Theme_id int,
         Category_id int,
-    
+        PRIMARY KEY(N),
+
         CONSTRAINT Category_FK
         FOREIGN KEY (Category_id) REFERENCES categories(id),
     
